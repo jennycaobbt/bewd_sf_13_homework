@@ -5,7 +5,7 @@ require 'pry-byebug'
 
 def my_reverse(word)
   clean = word.strip.downcase
-  puts clean
+#  puts clean
   new_word = ""
   1.upto(clean.length) do |thing|
       new_word = new_word << clean[0-thing]
